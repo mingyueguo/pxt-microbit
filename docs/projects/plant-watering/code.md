@@ -2,7 +2,7 @@
 
 Let's add code so that when the soil moisture level is low, the servo waters the plant.
 
-From the **[soil moisture](/projects/soil-moisture)** project, we know that the moisture is low when the ``reading`` is roughly less than ``500``. We can use this number to add an ``if reading < 500`` in the code to decect a dry condition.
+From the **[soil moisture](/projects/soil-moisture)** project, we know that the moisture is low when the ``reading`` is roughly less than ``500``. We can use this number to add an ``if reading < 500`` in the code to detect a dry condition.
 
 ```block
 let reading = 0
