@@ -1,6 +1,7 @@
 # Name Tag
 
 ### @explicitHints true
+### @diffs true
 
 ## Introduction @unplugged
 

@@ -1,5 +1,8 @@
 # Compass
 
+### @explicitHints true
+### @diffs true
+
 ## Introduction @unplugged
 
 This tutorial will show you how to program a script that displays which direction the @boardname@ is pointing. Let's get started!

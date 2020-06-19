@@ -1,6 +1,7 @@
 # Smiley Buttons
 
 ### @explicitHints true
+### @diffs true
 
 ## Introduction @unplugged
 

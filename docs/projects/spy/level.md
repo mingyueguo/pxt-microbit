@@ -1,6 +1,7 @@
 # Level
 
 ### @explicitHints true
+### @diffs true
 
 ## Introduction @unplugged
 
@@ -16,7 +17,6 @@ in the ``||basic:forever||`` loop.
 
 ```spy
 basic.forever(function() {
-    // @highlight
     let x = input.acceleration(Dimension.X)
 })
 ```
@@ -28,7 +28,6 @@ Make another variable ``||variables:y||`` and store the ``||input:acceleration y
 ```spy
 basic.forever(function() {
     let x = input.acceleration(Dimension.X)
-    // @highlight
     let y = input.acceleration(Dimension.Y)
 })
 ```
@@ -43,7 +42,6 @@ basic.forever(function() {
     let x = input.acceleration(Dimension.X)
     let y = input.acceleration(Dimension.Y)
     if (Math.abs(x) > 32) {
-        // @highlight
         basic.showIcon(IconNames.Sad)        
     } else {
 
@@ -63,7 +61,6 @@ basic.forever(function() {
     if (Math.abs(x) > 32) {
         basic.showIcon(IconNames.Sad)        
     } else if (Math.abs(y) > 32) {
-        // @highlight
         basic.showIcon(IconNames.Angry)        
     } else {
 
@@ -84,7 +81,6 @@ basic.forever(function() {
     } else if (Math.abs(y) > 32) {
         basic.showIcon(IconNames.Angry)        
     } else {
-        // @highlight
         basic.showIcon(IconNames.Happy)        
     }
 })

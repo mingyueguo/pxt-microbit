@@ -1,6 +1,7 @@
 # Snap the Dot
 
 ### @explicitHints true
+### @diffs true
 
 ## Introduction @unplugged
 

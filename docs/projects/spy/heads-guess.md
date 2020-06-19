@@ -1,6 +1,7 @@
 # Heads Guess!
 
 ### @explicitHints true
+### @diffs true
 
 ## Introduction @unplugged
 
@@ -45,7 +46,6 @@ Add code to pick a ``||math:random||`` ``||variables:index||``.
 let text_list: string[] = []
 let index = 0
 input.onGesture(Gesture.LogoUp, function () {
-    // @highlight
     index = randint(0, text_list.length - 1)
 })
 ```
@@ -60,7 +60,6 @@ let text_list: string[] = []
 let index = 0
 input.onGesture(Gesture.LogoUp, function () {
     index = randint(0, text_list.length - 1)
-    // @highlight
     basic.showString(text_list[index])
 })
 ```
@@ -82,7 +81,6 @@ Put in code to add points to the ``||game:score||``.
 
 ```spy
 input.onGesture(Gesture.ScreenDown, function () {
-    // @highlight
     game.addScore(1)
 })
 ```
@@ -104,7 +102,6 @@ For the pass gesture, add code to remove a ``||game:life||`` from the player.
 
 ```spy
 input.onGesture(Gesture.ScreenUp, function () {
-    // @highlight
     game.removeLife(1)
 })
 ```

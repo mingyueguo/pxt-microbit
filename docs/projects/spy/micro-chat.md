@@ -24,7 +24,6 @@ Every @boardname@ nearby will receive this message.
 
 ```spy
 input.onButtonPressed(Button.A, function() {
-    // @highlight
     radio.sendString(":)")
 })
 ```
@@ -44,7 +43,6 @@ Inside the event, add code to ``||basic:show||`` the ``||variables:receivedStrin
 
 ```spy
 radio.onReceivedString(function (receivedString) {
-    // @highlight
     basic.showString(receivedString)
 })
 ```

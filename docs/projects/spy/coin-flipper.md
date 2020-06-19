@@ -1,6 +1,7 @@
 # Coin Flipper
 
 ### @explicitHints true
+### @diffs true
 
 ## Introduction @unplugged
 

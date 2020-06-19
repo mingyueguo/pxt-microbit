@@ -1,6 +1,7 @@
 # Rock Paper Scissors
 
 ### @explicitHints true
+### @diffs true
 
 ## Introduction @unplugged
 

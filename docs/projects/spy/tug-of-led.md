@@ -1,6 +1,7 @@
 # Tug-Of-LED
 
 ### @explicitHints true
+### @diffs true
 
 ## Introduction @unplugged
 
@@ -75,7 +76,6 @@ let rope = 2
 basic.forever(function() {
     basic.clearScreen()
     led.plot(Math.round(rope), 2)
-    // @highlight
     if (rope < 0) {
         basic.showString("A WINS")
     }
@@ -95,7 +95,6 @@ basic.forever(function() {
     if (rope < 0) {
         basic.showString("A WINS")
     } else if (rope > 4) {
-        // @highlight
         basic.showString("B WINS")
     }
 })

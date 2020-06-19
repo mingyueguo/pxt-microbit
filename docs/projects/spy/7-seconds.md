@@ -1,6 +1,7 @@
 # 7 seconds game
 
 ### @explicitHints true
+### @diffs true
 
 ## Introduction @unplugged
 
@@ -30,7 +31,6 @@ variable.
 ```spy
 let start = 0
 input.onButtonPressed(Button.A, function () {
-    // @highlight
     start = input.runningTime()
 })
 ```
@@ -43,7 +43,6 @@ Show something on the screen so that the user knows that the timer has started..
 let start = 0
 input.onButtonPressed(Button.A, function () {
     start = input.runningTime()
-    // @highlight
     basic.showIcon(IconNames.Chessboard)
 })
 ```
@@ -67,7 +66,6 @@ store it in a new local variable (a variable only inside the event) called ``||v
 ```spy
 let start = 0
 input.onButtonPressed(Button.B, function () {
-    // @highlight
     let elapsed = input.runningTime() - start
 })
 ```
@@ -82,7 +80,6 @@ milliseconds.
 let start = 0
 input.onButtonPressed(Button.B, function () {
     let elapsed = input.runningTime() - start
-    // @highlight
     let score = Math.abs(elapsed - 7000)
 })
 ```
@@ -96,7 +93,6 @@ let start = 0
 input.onButtonPressed(Button.B, function () {
     let elapsed = input.runningTime() - start
     let score = Math.abs(elapsed - 7000)
-    // @highlight
     basic.showNumber(score)
 })
 ```

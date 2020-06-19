@@ -1,6 +1,7 @@
 # Love Meter
 
 ### @explicitHints true
+### @diffs true
 
 ## Introduction @unplugged
 
