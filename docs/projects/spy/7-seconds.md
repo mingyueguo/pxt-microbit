@@ -47,7 +47,7 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-## Step 4
+## Step 4 @resetDiff
 
 The player stops the timer by pressing button **B**. Add another event to run code when
 ``||input:button B is pressed||``.

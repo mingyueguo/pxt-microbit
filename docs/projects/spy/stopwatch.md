@@ -30,7 +30,7 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-## Step 3
+## Step 3 @resetDiff
 
 Add another event to run code when ``||input:button B is pressed||``.
 

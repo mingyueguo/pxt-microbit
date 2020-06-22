@@ -31,7 +31,7 @@ basic.forever(function() {
 })
 ```
 
-## Step 3
+## Step 3 @resetDiff
 
 Add an event for ``||input:button A pressed||`` to change the ``||variables:rope||`` value by **-0.1**.
 The @boardname@ will automatically round the ``||variables:rope||`` value to the nearest LED coordinate.
@@ -43,7 +43,7 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-## Step 4
+## Step 4 @resetDiff
 
 Add an event on ``||input:button B pressed||`` to change the ``||variables:rope||`` value by **0.1**.
 
@@ -54,7 +54,7 @@ input.onButtonPressed(Button.B, function () {
 })
 ```
 
-## Step 5
+## Step 5 @resetDiff
 
 Because a button press pulls the rope by **0.1** in either direction, plot the ``||math:rounded||`` value of ``||variables:rope||`` to the nearest LED.
 
@@ -62,6 +62,7 @@ Because a button press pulls the rope by **0.1** in either direction, plot the `
 let rope = 2
 basic.forever(function() {
     basic.clearScreen()
+    // @highlight
     led.plot(Math.round(rope), 2)
 })
 ```

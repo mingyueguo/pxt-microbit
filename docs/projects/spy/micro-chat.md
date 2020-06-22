@@ -28,7 +28,7 @@ input.onButtonPressed(Button.A, function() {
 })
 ```
 
-## Receiving a message
+## Receiving a message @resetDiff
 
 Put in another event to run code when a ``||radio:string is received||`` over ``||radio:radio||``. 
 
@@ -55,7 +55,7 @@ Press button **A** on the simulator, you will notice that a second @boardname@ a
 
 If you two @boardname@s, download the program to each one. Press button **A** on one and see if the other gets a message.
 
-## Groups
+## Groups @resetDiff
 
 Add code to ``||radio:set the group||`` number of your program. You will only receive messages from @boardname@s within the same group. Use this to avoid receiving messages from every @boardname@ that is transmitting.
 

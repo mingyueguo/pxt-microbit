@@ -26,7 +26,7 @@ text_list = ["PUPPY", "CLOCK", "NIGHT"]
 game.startCountdown(30000)
 ```
 
-## Step 3
+## Step 3 @resetDiff
 
 Add an event to run code when a ``||input:gesture||`` points the @boardname@ ``||input:logo up||``.
 This is the gesture to get a new word.
