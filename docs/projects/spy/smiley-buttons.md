@@ -31,7 +31,7 @@ input.onButtonPressed(Button.A, function() {
 })
 ```
 
-## Step 3
+## Step 3 @resetDiff
 
 Use another ``||input:on button pressed||`` with a ``||basic:show icon||`` inside to display a **Sad** face when button **B** is pressed.
 
@@ -41,7 +41,7 @@ input.onButtonPressed(Button.B, function() {
 })
 ```
 
-## Step 4
+## Step 4 @resetDiff
 
 Add a secret mode that happens when **A** and **B** are pressed together. For this case, use ``||basic:show icon||`` multiple times to create an animation.
 
