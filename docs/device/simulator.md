@@ -4,22 +4,20 @@ The JavaScript simulator allows you to test and execute most BBC micro:bit progr
 It allows you to emulate sensor data or user interactions.
 
 ```sim
-input.onButtonPressed(Button.A, () => {
-   basic.showString("A");
+input.onButtonPressed(Button.N, () => {
+   basic.showString("North");
 });
-input.onButtonPressed(Button.B, () => {
-   basic.showString("B");
+input.onButtonPressed(Button.S, () => {
+   basic.showString("South");
 });
-input.onPinPressed(TouchPin.P0, () => {
-   basic.showString("0");
+input.onPinPressed(Button.E, () => {
+   basic.showString("East");
 });
-input.onPinPressed(TouchPin.P1, () => {
-   basic.showString("1");
+input.onPinPressed(Button.W1, () => {
+   basic.showString("West");
 });
-input.onPinPressed(TouchPin.P2, () => {
-   basic.showString("2");
-});
-input.temperature()
+
+input.compass()
 input.compassHeading()
 input.lightLevel()
 ```
